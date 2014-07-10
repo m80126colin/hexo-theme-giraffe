@@ -1,0 +1,6 @@
+<%
+var dsq_name = config.disqus_shortname || theme.disqus_shortname;
+if (post.comments && dsq_name) {
+%>
+  <a href="<%- post.permalink %>#disqus_thread" class="article-comment-link"><%- __('comments') %></a>
+<% } %>

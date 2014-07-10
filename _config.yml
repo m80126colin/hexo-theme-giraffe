@@ -1,7 +1,7 @@
 # Header
 menu:
-  Home: /
-  Archives: /archives
+  home: /
+  archive: /archives
 rss: /atom.xml
 
 # Content
@@ -16,6 +16,7 @@ widgets:
 - tagcloud
 - archive
 - recent_posts
+- recent_comments
 
 # Miscellaneous
 google_analytics:
@@ -24,3 +25,4 @@ twitter:
 google_plus:
 fb_admins:
 fb_app_id:
+disqus_shortname: m80126colin

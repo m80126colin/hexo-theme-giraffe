@@ -1,0 +1,28 @@
+#### Menu Config 主選單參數
+home: 首頁
+menu: 主選單
+search: 搜尋
+
+#### Sidebar Config 側邊欄參數
+tags: 標籤
+tagcloud: 標籤雲
+categories: 分類
+recent_posts: 最新文章
+recent_comments: 最新留言
+archive: 網誌存檔
+links: 相關連結
+rss: RSS 訂閱
+showsidebar: 顯示側邊欄
+hidesidebar: 隱藏側邊欄
+
+#### Article Config 文章參數
+prev: 上一頁
+next: 下一頁
+comments: 文章留言
+contents: 目錄
+archives_a: 彙整
+archives_b: 彙整：%s
+page: 第 %d 頁
+updated: 更新日期
+outline: 大綱
+share: 分享

@@ -1,0 +1,28 @@
+#### Menu Config
+home: Home
+menu: Menu
+search: Search
+
+#### Sidebar Config
+tags: Tags
+tagcloud: Tag Cloud
+categories: Categories
+recent_posts: Recent Posts
+recent_comments: Recent Comments
+archive: Archives
+links: Links
+rss: RSS
+showsidebar: Show Sidebar
+hidesidebar: Hide Sidebar
+
+#### Article Config
+prev: Prev
+next: Next
+comments: Comments
+contents: Contents
+archives_a: Archives
+archives_b: Archives: %s
+page: Page %d
+updated: Updated
+outline: Outline
+share: Share
