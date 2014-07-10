@@ -2,14 +2,17 @@
 menu:
   home: /
   archive: /archives
-rss: /atom.xml
+  Abc: /page
+rss: /rss.xml
 
 # Content
 excerpt: true
 fancybox: true
 
 # Sidebar
+## set the position of sidebar
 sidebar: right
+## sort widgets of sidebar from here
 widgets:
 - category
 - tag
@@ -17,6 +20,15 @@ widgets:
 - archive
 - recent_posts
 - recent_comments
+- links
+
+# list of link
+links:
+- name: "Morris' Blog"
+  site: "http://mypaper.pchome.com.tw/zerojudge"
+  intro: "神 morris"
+- name: "Morris' Blog (on Github)"
+  site: "http://morris821028.github.io"
 
 # Miscellaneous
 google_analytics:

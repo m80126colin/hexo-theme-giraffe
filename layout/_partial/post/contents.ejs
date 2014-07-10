@@ -1,0 +1,7 @@
+<% if (!index) { %>
+<div class="<%= class_name %>">
+  <h2><%- __('contents') %></h2>
+  <%- toc(post.content, {list_number: false}) %>
+  <hr>
+</div>
+<% } %>

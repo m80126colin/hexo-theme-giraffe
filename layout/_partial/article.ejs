@@ -19,9 +19,7 @@
           </p>
         <% } %>
       <% } else { %>
-        <% if (!index) { %>
-          <%- toc(post.content, {list_number: false}) %>
-        <% } %>
+        <%- partial('post/contents', {class_name: 'toc-table'}) %>
         <%- post.content %>
       <% } %>
     </div>
