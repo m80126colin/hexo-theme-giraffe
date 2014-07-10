@@ -5,7 +5,7 @@
   </div>
   <div class="article-inner">
     <%- partial('post/gallery') %>
-    <% if (post.link || post.title){ %>
+    <% if (post.link || post.title) { %>
       <header class="article-header">
         <%- partial('post/title', {class_name: 'article-title'}) %>
       </header>
@@ -13,9 +13,9 @@
     <div class="article-entry" itemprop="articleBody">
       <% if (post.excerpt && index) { %>
         <%- post.excerpt %>
-        <% if (theme.excerpt_link) { %>
+        <% if (theme.excerpt) { %>
           <p class="article-more-link">
-            <a href="<%- url_for(post.path) %>#more"><%= theme.excerpt_link %></a>
+            <a href="<%- url_for(post.path) %>#more"><%= __('excerpt') %></a>
           </p>
         <% } %>
       <% } else { %>
@@ -31,7 +31,7 @@
       <%- partial('post/tag') %>
     </footer>
   </div>
-  <% if (!index){ %>
+  <% if (!index) { %>
     <%- partial('post/nav') %>
   <% } %>
   <%- partial('post/comments') %>

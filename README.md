@@ -1,6 +1,6 @@
 # Giraffe
 
-A brand new default theme for [Hexo].
+A theme for [Hexo].
 
 - [Preview](http://hexo.io/hexo-theme-landscape/)
 
