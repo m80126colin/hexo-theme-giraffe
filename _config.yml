@@ -1,9 +1,8 @@
 # Header
 menu:
-  home: /
-  archive: /archives
-  Abc: /page
-rss: /rss.xml
+  home: /blog/
+  archive: /blog/archives
+rss: /blog/atom.xml
 
 # Content
 excerpt: true
@@ -15,7 +14,6 @@ sidebar: right
 ## sort widgets of sidebar from here
 widgets:
 - category
-- tag
 - tagcloud
 - archive
 - recent_posts

@@ -1,27 +1,25 @@
 # Giraffe
 
-A theme for [Hexo].
-
-- [Preview](http://hexo.io/hexo-theme-landscape/)
+A developing theme template based on [Landscape] for [Hexo].
 
 ## Installation
 
 ### Install
 
 ``` bash
-$ git clone https://github.com/hexojs/hexo-theme-landscape.git themes/landscape
+$ git clone git@github.com:m80126colin/hexo-theme-giraffe.git themes/giraffe
 ```
 
-**Landscape requires Hexo 2.4 and above.**
+**Giraffe requires Hexo 2.6 and above.**
 
 ### Enable
 
-Modify `theme` setting in `_config.yml` to `landscape`.
+Modify `theme` setting in `_config.yml` to `giraffe`.
 
 ### Update
 
 ``` bash
-cd themes/landscape
+cd themes/giraffe
 git pull
 ```
 
@@ -105,6 +103,7 @@ All of them are enabled by default. You can edit them in `widget` setting.
 - **fancybox** - Only download [Fancybox].
 - **clean** - Clean temporarily files and downloaded files.
 
+[Landscape]: https://github.com/hexojs/hexo-theme-landscape
 [Hexo]: http://zespia.tw/hexo/
 [Fancybox]: http://fancyapps.com/fancybox/
 [Font Awesome]: http://fontawesome.io/
