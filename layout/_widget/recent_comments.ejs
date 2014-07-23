@@ -2,7 +2,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title"><%- __('recent_comments') %></h3>
     <div class="widget">
-      <script type="text/javascript" src="http://<%= config.disqus_shortname || theme.disqus_shortname %>.disqus.com/recent_comments_widget.js?num_items=10&amp;hide_avatars=1&amp;avatar_size=32&amp;excerpt_length=10&amp;hide_mods=0"></script>
+      <script type="text/javascript" src="http://<%= config.disqus_shortname || theme.disqus_shortname %>.disqus.com/recent_comments_widget.js?num_items=<%= theme.comment_count || 10 %>&amp;hide_avatars=1&amp;avatar_size=32&amp;excerpt_length=10&amp;hide_mods=0"></script>
     </div>
   </div>
 <% } %>

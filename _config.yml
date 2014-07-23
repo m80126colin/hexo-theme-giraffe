@@ -22,11 +22,13 @@ widgets:
 
 # list of link
 links:
-- name: "Morris' Blog"
-  site: "http://mypaper.pchome.com.tw/zerojudge"
-  intro: "神 morris"
-- name: "Morris' Blog (on Github)"
-  site: "http://morris821028.github.io"
+- name:
+  site:
+  intro:
+
+# xxx
+post_count: 20
+comment_count: 20
 
 # Miscellaneous
 google_analytics:
@@ -35,4 +37,4 @@ twitter:
 google_plus:
 fb_admins:
 fb_app_id:
-disqus_shortname: m80126colin
+disqus_shortname:
